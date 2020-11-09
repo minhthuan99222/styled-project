@@ -1,10 +1,18 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { Navbar } from './components';
+import GlobalStyle from './globalStyles';
 
 
 function App(props) {
     return (
         <div className="App">
-            <h3>What's uppp</h3>
+
+            <BrowserRouter>
+                <GlobalStyle />
+                <Navbar />
+            </BrowserRouter>
+
         </div>
     );
 }
