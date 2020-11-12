@@ -44,7 +44,7 @@ function Navbar(props) {
                     <NavContainer>
                         <NavLogo to="/">
                             <NavIcon />
-                        ULTRA
+                        MadCode
                     </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
